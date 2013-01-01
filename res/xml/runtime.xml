@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Runtimes>
+	<Runtime
+	id="6afa05d1-9934-400f-a5ef-24534036096" 
+	nameResId="@string/full_runtime"
+	description="Full Vim Runtime"
+	index="1"/>
+</Runtimes>

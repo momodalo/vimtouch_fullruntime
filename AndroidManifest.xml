@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.momodalo.app.vimtouch.fullruntime"
+      android:versionCode="1"
+      android:versionName="1.0">
+     <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4"></uses-sdk>
+
+	<supports-screens
+          android:largeScreens="true" 
+          android:normalScreens="true"
+          android:smallScreens="true"
+          android:anyDensity="true" />
+	
+    <application android:icon="@drawable/app_icon" android:label="@string/app_name">
+    	<receiver android:exported="true" android:name=".VimBroadcastReceiver">
+    		<intent-filter> 
+                <action android:name="net.momodalo.app.vimtouch.RUNTIME" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+            <meta-data android:name="com.menny.android.anysoftkeyboard.runtime" android:resource="@xml/runtime" />
+    	</receiver>		
+          
+    </application>
+</manifest>
