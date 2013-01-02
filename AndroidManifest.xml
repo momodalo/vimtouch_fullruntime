@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.ALTERNATIVE" />
                 <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
             </intent-filter>
-            <meta-data android:name="com.menny.android.anysoftkeyboard.runtime" android:resource="@xml/runtime" />
+            <meta-data android:name="net.momodalo.app.vimtouch.runtime" android:resource="@xml/runtime" />
     	</receiver>		
           
     </application>

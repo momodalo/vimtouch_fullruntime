@@ -4,5 +4,7 @@
 	id="6afa05d1-9934-400f-a5ef-24534036096" 
 	nameResId="@string/full_runtime"
 	description="Full Vim Runtime"
+    runtimeAssetName="vim.vrz"
+    runtimeAssetMd5="8488d190b3d1f2c3812e4dd7dd5e86ff"
 	index="1"/>
 </Runtimes>
