@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Runtimes>
 	<Runtime
-	id="6afa05d1-9934-400f-a5ef-24534036096" 
+	id="11af813665b4d75b7565267564840bc30758a462" 
 	nameResId="@string/full_runtime"
 	description="Full Vim Runtime"
     runtimeAssetName="vim.vrz"
