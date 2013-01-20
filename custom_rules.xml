@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="help">
+    <target name="-pre-compile">
+        <exec executable="zip" dir="vimscript" failonerror="true" >
+            <arg line="-r ../assets/vim.vrz ." />
+        </exec>
+    </target>
+</project>
